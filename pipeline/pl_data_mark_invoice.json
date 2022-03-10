@@ -1,0 +1,27 @@
+{
+	"name": "pl_data_mark_invoice",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
+			}
+		],
+		"parameters": {
+			"SQL_name": {
+				"type": "string"
+			},
+			"CSV_name": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2022-02-22T21:17:40Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

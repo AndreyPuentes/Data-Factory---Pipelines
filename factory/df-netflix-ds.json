@@ -1,0 +1,9 @@
+{
+	"name": "df-netflix-ds",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c4834b4c-b510-4235-9d8b-c917313cf437",
+		"tenantId": "4180bc7f-3fbf-4c66-b796-c1e2771219ee"
+	}
+}
