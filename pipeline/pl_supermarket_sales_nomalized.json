@@ -1337,6 +1337,7 @@
 						"sqlWriterUseTableLock": false
 					},
 					"enableStaging": false,
+					"dataIntegrationUnits": 16,
 					"translator": {
 						"type": "TabularTranslator",
 						"mappings": [
